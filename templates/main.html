@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="../assets/js/axios.min.js"></script>
+  <script defer src="../assets/js/main.js"></script>
+</head>
+
+<body>
+  <main>
+    <header class="header section-wrapper ">
+      <nav class="header__nav">
+        <ul class="header_list">
+          <li><a class="nav__link" href="">ГЛАВНАЯ</a></li>
+          <li><a class="nav__link" href="">КАТАЛОГ</a></li>
+          <li><a class="nav__link" href="/logout">ВЫХОД</a></li>
+        </ul>
+        <div class="header_list">
+          <spsn class="nav__text">ЛИЧНЫЙ КАБИНЕТ ПОЛЬЗОВАТЕЛЯ {{name}}</spsn>
+        </div>
+      </nav>
+
+    </header>
+    <section class="section-wrapper">
+      <div class="content-wrapper content">
+        <div class="control">
+          <h1>Добрый день!</h1>
+          <ul>
+            <li><button class="controlbtn">Пользователи</button></li>
+            <li><button class="controlbtn">Прдукция</button></li>
+          </ul>
+        </div>
+        <div class="result">
+          <textarea name="info" class="info"></textarea>
+          <br>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

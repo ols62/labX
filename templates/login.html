@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Please sign in</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/login.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script defer src="../assets/js/login.js"></script>
+  
+</head>
+
+<body>
+  <div class="container">
+    <form action="" class="form-signin" method="post">
+      <h2 class="form-signin-heading">Пожалуйста войдите или зарегистрируйтесь</h2>
+      <div class="alert alert-danger" role="alert">
+      </div>
+      <div class="alert alert-success" role="alert">
+        Если у вас ещё нет учётной записи, нажмите "Зарегистрироваться", для входа в систему нажмите "Войти"
+      </div>
+      <p>
+        <label for="username" class="sr-only">Имя пользователя</label>
+        <input type="text" id="username" name="username" class="form-control" placeholder="Имя пользователя" required
+          autofocus autocomplete="on">
+      </p>
+      <p>
+        <label for="password" class="sr-only">Пароль</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Пароль" required >
+      </p>
+      <p>
+        <button class="enter-button btn btn-lg btn-primary btn-block" type="button" >Войти</button>
+      </p>
+      <p>
+        <button class="register-button btn btn-lg  btn-secondary btn-block" type="button" >Зарегистрироваться</button>
+      </p>
+      <!--input type="hidden" name="{{_csrf.parameterName}} value=" {{_csrf.token}}" / -->
+    </form>
+  </div>
+</body>
+
+</html>
